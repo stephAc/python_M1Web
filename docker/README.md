@@ -20,3 +20,10 @@
 - `docker kill [OPTIONS] CONTAINER [CONTAINER...]`
 - `docker system prune [OPTIONS]`
 - `docker image COMMAND`
+
+### DS Sand box container
+
+Exemple de commandes
+
+- `docker build -t python_container .`
+- `docker run -p 8000:8000 -d --name python python_container:latest`
